@@ -1,11 +1,12 @@
 """
 Module 4 - Portfolio Milestone
 
-Step 1:
-Step 2:
-Step 3:
+Step 1: Build the ItemToPurchase class.
+Step 2: In main.py, prompt user for item data for two items (name, price, quantity).
+Step 3: Add costs of both items and output their totals and the toal cost of both items.
 
-<HOW PROGRAM WORKS>
+User will be prompted to enter name, price, and quantity data for two items.
+The total cost of each item is calculated seperatly and output to the user, followed but the total cost of both items.
 """
 
 
@@ -27,6 +28,8 @@ class ItemToPurchase:
 """Main - Entry Point"""
 if __name__ == "__main__":
     
+    print("Welcome to the Online Shopping Calculator!\n")
+
     # Create two objects using the ItemToPurchase class
     item1 = ItemToPurchase()
     item2 = ItemToPurchase()
@@ -37,7 +40,7 @@ if __name__ == "__main__":
     item1.item_price = float(input("Enter the item price: "))
     item1.item_quantity = int(input("Enter the item quantity: "))
 
-    print("\nItem 1")
+    print("\nItem 2")
     item2.item_name = input("Enter the item name: ")
     item2.item_price = float(input("Enter the item price: "))
     item2.item_quantity = int(input("Enter the item quantity: "))
@@ -49,4 +52,3 @@ if __name__ == "__main__":
 
     total_cost = (item1.item_price * item1.item_quantity) + (item2.item_price * item2.item_quantity)
     print(f"\nTotal: ${total_cost}")
-    
