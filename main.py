@@ -103,33 +103,3 @@ def main():
 # Program entry point
 if __name__ == "__main__":
     main()
-    
-
-
-    """
-    Milestone 1 Commented out to run project.
-    """
-    # print("Welcome to the Online Shopping Calculator!\n")
-
-    # # Create two objects using the ItemToPurchase class
-    # item1 = ItemToPurchase()
-    # item2 = ItemToPurchase()
-
-    # # Prompt user for two items
-    # print("Item 1")
-    # item1.item_name = input("Enter the item name: ")
-    # item1.item_price = float(input("Enter the item price: "))
-    # item1.item_quantity = int(input("Enter the item quantity: "))
-
-    # print("\nItem 2")
-    # item2.item_name = input("Enter the item name: ")
-    # item2.item_price = float(input("Enter the item price: "))
-    # item2.item_quantity = int(input("Enter the item quantity: "))
-
-    # # Calculate total cost and print out to user
-    # print("\nTOTAL COST")
-    # item1.print_item_cost()
-    # item2.print_item_cost()
-
-    # total_cost = (item1.item_price * item1.item_quantity) + (item2.item_price * item2.item_quantity)
-    # print(f"\nTotal: ${total_cost}")
